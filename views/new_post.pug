@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div.center
+    form(action="/new" method="post") 
+      label titulo 
+        br
+        input(name="title")
+        br
+        label autor
+        br
+        input(name="author")
+        br
+        label tema
+        br
+        input(name="topic")
+        br
+        label contenido
+        br
+        textarea(row="10" cols="50" name="content")
+        br
+        button.btn(type="submit") guardar

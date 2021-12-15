@@ -5,6 +5,16 @@ nav ul {
   justify-content: center;
    align-items: center;
  }
+ .center {
+   text-align: center;
+ }
+ .btn {
+   border: lpx solid #f83c7d;
+   background: #f83c7d;
+   color:white;
+   padding: 5px;
+   border-radius: 5px;
+ }
  nav ul li {
    margin: 30px 30px;
    font-family: 'lato';
@@ -17,5 +27,5 @@ nav ul {
 
  nav ul li a {
    text-decoration: none;
-   color: palevioletred
+   color: palevioletred;
  }
